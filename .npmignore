@@ -1,0 +1,8 @@
+*.jpg
+src/
+demo/
+tests/
+webpack.config.js
+karma.conf.js
+tsconfig.json
+tslint.json
