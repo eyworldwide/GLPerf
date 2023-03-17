@@ -22,12 +22,12 @@ Pixi.js example and Three.js example
 ### Steps
 
 * Install the package
-  ```
+  ```bash
   npm i --save gl-perf
   ```
 
 * Create a instance of GLPerf Monitor and update in animation loop
-  ```
+  ```javascript
   import {Monitor} from 'gl-perf'
 
   // the parameter `canvas` is HTMLCanvasElement
