@@ -43,7 +43,7 @@ It works in all WebGL Libraries or Frameworks.
 
 - Pixi.js Example 
 
-  ```
+  ```javascript
   var app = new PIXI.Application(width, height, { backgroundColor : 0x1099bb })
 
   var glPerf = new Monitor(app.view)
@@ -57,7 +57,7 @@ It works in all WebGL Libraries or Frameworks.
 
 - Three.js Example 
 
-  ```
+  ```javascript
   var renderer = new THREE.WebGLRenderer( { antialias: true } )
 
   var glPerf = new Monitor(renderer.domElement)
